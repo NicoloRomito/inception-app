@@ -36,8 +36,7 @@ metadata:
   name:  app-ingress
 spec:
   rules:
-    - host: localhost
-      http:
+    - http:
         paths:
           - path: /
             pathType: Prefix
