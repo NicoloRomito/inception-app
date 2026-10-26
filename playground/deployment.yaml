@@ -36,7 +36,7 @@ metadata:
   name:  app-ingress
 spec:
   rules:
-    - host: localhost
+    - host: merda.com
       http:
         paths:
           - path: /
